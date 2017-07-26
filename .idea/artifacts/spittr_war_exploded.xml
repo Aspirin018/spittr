@@ -33,6 +33,7 @@
           <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.3.9.RELEASE.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-tomcat-4.3.9.RELEASE.jar" />
           <element id="library" level="project" name="Spring MVC-4.3.9.RELEASE (2)" />
+          <element id="library" level="project" name="Spring MVC-4.3.9.RELEASE (3)" />
         </element>
       </element>
     </root>
