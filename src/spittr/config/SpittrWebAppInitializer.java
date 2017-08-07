@@ -3,6 +3,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 /**
  * Created by liyu on 2017/7/25.
  * 扩展AbstractAnnotationConfigDispatcherServletInitializer的类会自动配置DispatcherServlet和spring应用上下文
+ * 当扩展AbstractAnnotationConfigDispatcherServletInitializer的类部署到容器时，容器会自动发现它，并用它来配置servlet上下文
  * 将DispathcherServlet配置在Servlet容器中
  */
 public class SpittrWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
