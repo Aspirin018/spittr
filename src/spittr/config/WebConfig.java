@@ -2,7 +2,6 @@ package spittr.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.ComponentScans;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
@@ -26,7 +25,7 @@ public class WebConfig extends WebMvcConfigurerAdapter{
         return resolver;
     }
 
-    @Override //对静态资源的请求转发到默认的servlet,而不是DIspatcherServlet
+    @Override //对静态资源的请求转发到默认的servlet,而不是DispatcherServlet
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer){
         configurer.enable();;
     }
